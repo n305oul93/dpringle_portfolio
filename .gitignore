@@ -21,3 +21,5 @@
 My additions
 ##############
 .idea/*
+/config/secrets.yml
+.env
