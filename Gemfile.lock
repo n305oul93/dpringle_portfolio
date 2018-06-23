@@ -179,6 +179,7 @@ GEM
     orm_adapter (0.5.0)
     petergate (1.8.1)
       activerecord (> 4.0.0)
+    pg (1.0.0)
     popper_js (1.12.9)
     pringle_view_tool (0.1.0)
     pry (0.11.3)
@@ -315,6 +316,7 @@ DEPENDENCIES
   mini_magick (~> 4.8)
   mysql2 (>= 0.3.18, < 0.6.0)
   petergate (~> 1.8, >= 1.8.1)
+  pg (~> 1.0)
   pringle_view_tool (~> 0.1.0)
   pry-byebug
   puma (~> 3.7)

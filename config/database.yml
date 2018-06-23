@@ -47,8 +47,17 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+#production:
+#  <<: *default
+#  database: desmond_pringle_portfolio_production
+#  username: desmond_pringle_portfolio
+#  password: <%= ENV['DESMOND_PRINGLE_PORTFOLIO_DATABASE_PASSWORD'] %>
+
+# For Heroku deployment
 production:
-  <<: *default
-  database: desmond_pringle_portfolio_production
-  username: desmond_pringle_portfolio
+  adapter: postgresql
+  encoding: unicode
+  database: dpringle_portfolio_prod
+  pool: 5
+  username: dpringle_portfolio
   password: <%= ENV['DESMOND_PRINGLE_PORTFOLIO_DATABASE_PASSWORD'] %>
