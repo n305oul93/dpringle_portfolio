@@ -10,8 +10,6 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
   # config.secret_key = 'f6abcd53ba112d71fba16b16d6f50ea49c5f4f04fc14640f133835a9f1946efbdfa4093d1ad40e74573d8eea0a98482cd8060b04c4376ace29ad135141b301b8'
 
-  config.secret_key = ENV['SECRET_KEY_BASE'] if Rails.env.production?
-
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
   # config.parent_controller = 'DeviseController'
