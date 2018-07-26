@@ -10,7 +10,7 @@
 
     <meta name="keywords" content="<%= @seo_keywords %>" />
 
-    <%= favicon_link_tag 'favicons/favicon.ico' %>
+    <%= favicon_link_tag 'favicons/initials_md_favicon.ico' %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -22,12 +22,13 @@
         <div class="cover-container">
 
           <%= video_tag(
-              'HardDrivePhotojpeg.mp4',
+              'Mobile-Games.mp4',
               id: 'background',
               autoplay: true,
               loop: true,
+              volume: 0,
               muted: true,
-              poster: 'hard-drive-lg.jpg'
+              poster: 'Mobile-Games.jpg'
               )
           %>
 
