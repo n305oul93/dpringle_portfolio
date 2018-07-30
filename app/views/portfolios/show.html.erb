@@ -5,7 +5,8 @@
     </div>
 
     <div class="col-md-5">
-      <h1><%= @portfolio_item.title %></h1>
+      <h1><%= link_to @portfolio_item.title, @portfolio_item.url, class: 'portfolio-item-url', target: '_blank' %></h1>
+      <p><%= link_to 'Code', @portfolio_item.code_url, class: 'portfolio-item-code-url', target: '_blank' %></p>
 
       <hr>
 
