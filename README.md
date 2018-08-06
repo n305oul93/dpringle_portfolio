@@ -1,24 +1,30 @@
-# README
+# Personal Portfolio Website
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Full featured personal portfolio website that allows to showcase applications that I created or assisted on.  This site also allows for writing a personal blog and keeping up with latest technology news.  Some of features include using Twitter API for the news feed, Javascript and jQuery to integrate sorting, drag and drop functionality for portfolio items, and actioncable to feature realtime comment updates in blogs.
 
-Things you may want to cover:
+## Deployment
 
-* Ruby version
+Deployed to Amazon EC2 instance using nginx as a proxy server and use of Amazon S3 for storage and uploads.
 
-* System dependencies
+## Built With
 
-* Configuration
+* [Ruby on Rails v5.1.6](https://rubyonrails.org/)
 
-* Database creation
+### Prerequisites - Gems used
+* Mysql
+* Devise
+* Amazon s3
+* Bootstrap-sass v3.3.7
+* Font-awesome-rails
+* Carrierwave
+* jquery-rails
+* petergate
+* twitter
+* redis
+* kaminari
 
-* Database initialization
+## Acknowledgments
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Jordan Hudgens
+* Tech Talent South
+* Kirk Keeter
