@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# [Personal Portfolio Website](https://djpringle.website)
 
 Full featured personal portfolio website that allows to showcase applications that I created or assisted on.  This site also allows for writing a personal blog and keeping up with latest technology news.  Some of features include using Twitter API for the news feed, Javascript and jQuery to integrate sorting, drag and drop functionality for portfolio items, and actioncable to feature realtime comment updates in blogs.
 
