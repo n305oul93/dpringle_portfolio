@@ -23,7 +23,7 @@ Deployed to Amazon EC2 instance using nginx as a proxy server and use of Amazon 
 * redis
 * kaminari
 
-## Acknowledgments
+###### Acknowledgments
 
 * Jordan Hudgens
 * Tech Talent South
