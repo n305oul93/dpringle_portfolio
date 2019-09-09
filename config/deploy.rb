@@ -6,8 +6,10 @@ set :repo_url, "git@github.com:n305oul93/dpringle_portfolio.git"
 
 set :branch, :master
 set :deploy_to, "/home/deploy/djpringle_portfolio"
-set :rvm_type, :user
-set :rvm_ruby_version, '2.5.1'
+#set :rvm_type, :user
+set :rbenv_type, :user
+#set :rvm_ruby_version, '2.5.1'
+set :rbenv_ruby, '2.5.1'
 set :pty, true
 append :linked_files, "config/database.yml", "config/secrets.yml", ".env"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
