@@ -8,7 +8,7 @@ set :branch, :master
 set :deploy_to, "/home/deploy/djpringle_portfolio"
 set :rvm_type, :user
 #set :rbenv_type, :user
-set :rvm_ruby_version, '2.5.1'
+set :rvm1_ruby_version, '2.5.1'
 #set :rbenv_ruby, '2.5.1'
 set :pty, true
 
