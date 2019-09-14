@@ -11,6 +11,7 @@ set :rvm_type, :user
 set :rvm_ruby_version, '2.5.1'
 #set :rbenv_ruby, '2.5.1'
 set :pty, true
+set :rvm1_map_bins, %w{rake gem bundle ruby}
 append :linked_files, "config/database.yml", "config/secrets.yml", ".env"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
 
@@ -38,7 +39,6 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bund
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
-set :default_env, { path: "/home/deploy/.rvm/rubies/ruby-2.5.1/bin:$PATH" }
 
 # Default value for local_user is ENV['USER']
 # set :local_user, -> { `git config user.name`.chomp }
