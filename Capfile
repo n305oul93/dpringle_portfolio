@@ -30,6 +30,7 @@ install_plugin Capistrano::SCM::Git
 #require 'capistrano/bundler'
 #require "capistrano/rbenv"
 require 'rvm1/capistrano3'
+require 'capistrano/bundler'
 require 'capistrano/rails'
 require 'capistrano/puma'
 require 'capistrano/puma/nginx'
