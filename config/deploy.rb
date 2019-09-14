@@ -38,7 +38,7 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bund
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
-set :default_env, { path: "/home/deploy/.rvm/gems/ruby-2.5.1/bin:$PATH" }
+set :default_env, { path: "/home/deploy/.rvm/rubies/ruby-2.5.1/bin:$PATH" }
 
 # Default value for local_user is ENV['USER']
 # set :local_user, -> { `git config user.name`.chomp }
