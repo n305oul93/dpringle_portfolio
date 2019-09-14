@@ -11,7 +11,7 @@ set :rvm_type, :user
 set :rvm_ruby_version, '2.5.1'
 #set :rbenv_ruby, '2.5.1'
 set :pty, true
-set :rvm1_map_bins, %w{rake gem bundle ruby}
+set :rvm1_map_bins, %w{rake gem bundle}
 append :linked_files, "config/database.yml", "config/secrets.yml", ".env"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
 
