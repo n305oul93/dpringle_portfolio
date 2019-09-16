@@ -1,3 +1,8 @@
+# Adding to fix:
+# NoMethodError: undefined method `deep_symbolize_keys' for #<String:0x0000000006e1a720>
+require 'active_support/core_ext/hash/keys'
+require 'active_support/core_ext/string/filters'
+
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
